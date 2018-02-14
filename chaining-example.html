@@ -13,16 +13,17 @@
       });
       
       $('h3').click(function(){
-        $(this).css('color','red');
-        $(this).css('font-family','Arial');
-      });
-      
-      $('h4').click(function(){
         $(this).css('color','red').css('font-family','Arial');
       });
       
+      $('h4').click(function(){
+        $(this).css('color','red')
+        $(this).css('font-family','Arial');
+      });
+      
       $('h5').click(function(){
-        $(this).css({'color':'red','font-family':'Arial'});
+        $(this).css('color', 'red',
+        'font-family':'Arial'});
       });
       
     });
